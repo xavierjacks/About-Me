@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+   <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="Ie=edge">
+	<title>Jeanette's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" media="screen and (min-width:500px;) href="over500.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	</script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+	</script>
+</head>
+<body>
+<header class="header">
+  <div class="container-fluid">
+	<div class="row">
+      	   <div class="col-md-4">
+		<img class="avatar" src="https://discourse-cdn.global.ssl.fastly.net/udacity/letter_avatar/jeanette_74030668569/240/5_fcf819f9b3791cb8c87edf29c8984f83.png" alt="Udacity avatar">
+	   </div>
+           <div class="col-md-8">
+		<h1 class="header__title"><div class="title-super">Jeanette A. Barnes</h1>
+		<h4>Front-End Ninja</h4>
+		</div>
+   	   </div>
+   	</div>
+</header>
+
+<!-- NAV BAR -->
+<nav id="drawer" class="nav">
+<ul class="nav nav-pills">
+  <li class="nav__item"><a href="http://www.fillmurray.com/g/555/300">FavApp</a></li>
+  <li class="nav__item"><a href="http://www.fillmurray.com/g/555/300">Portfolio 	         	Framework</a></li>
+  <li class="nav__item"><a href="http://www.fillmurray.com/555/300">Portfolio 			Bootstrap</a></li>
+  <li class="nav__item"><a href="http://www.fillmurray.com/555/300">Fun Stuff</a></li>	
+</ul>
+</nav>
+<!-- End Nav Bar -->
+
+	<div class="container-fluid">
+	<div class="row">
+	  <div class="col-md-12">
+		<hr>
+	<img class="img-responsive"
+	src="http://www.fillmurray.com/1140/350" alt="Bill Murray">
+		</div>
+	  </div> 
+	</div>
+	<!-- END CONTAINER -->
+
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-6">
+	<h2 class="text-muted">Featured Work</h2>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row text-center">
+        <div class="col-md-6">
+	<a href="#myModal" data-toggle="modal"><img class="img-responsive" 
+	src="http://www.fillmurray.com/g/555/300" data-toggle="modal" alt="Bill 		Murray"></a>
+        <h3>Favorite App</h3>
+	<p>
+	<a class="FavApp" href="http://www.fillmurray.com/g/555/300">FavApp
+	</a>
+	</p>
+	</div>
+      
+	<div class="col-md-6">
+	<a href="#2ndModal" data-toggle="modal">
+	<img class="img-responsive" 
+	src="http://www.fillmurray.com/g/555/300" data-toggle="modal" alt="Bill Murray">
+	</a>	
+	<h3>Portfolio Framework</h3>
+	<p>
+	<a class="Frames and things" href="http://www.fillmurray.com/g/555/300">Frames
+	</a>
+	</p>
+	</div>
+
+  </div>
+</div>
+
+<div class="container-fluid">
+<div class="row text-center">
+
+	<div class="col-md-6">
+	<a href="#3rdModal" data-toggle="modal">
+	<img class="img-responsive" 
+	src="http://www.fillmurray.com/555/300" data-toggle="modal" alt="Bill Murray">
+	</a>
+        <h3>Portfolio Bootstrap</h3>
+	<p>
+	<a class="Boots" href="http://www.fillmurray.com/g/555/300">Boots
+	</a>
+	</p>
+	</div>
+
+	<div class="col-md-6">
+	<a href="#4thModal" data-toggle="modal">
+	<img class="img-responsive" src="http://www.fillmurray.com/555/300" 
+	data-toggle="modal" alt="Bill Murray">
+	</a>
+        <h3>Fun Stuff</h3>
+	<p>
+	<a class="Goodies" href="http://www.fillmurray.com/g/555/300">Goodies
+	</a>
+	</p>
+	</div>
+
+</div>
+</div>
+
+
+<!-- Trigger the modal with an image -->
+<!-- end container -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Favorite App Page</h4>
+        </div>
+        
+	<div class="modal-body">
+          <p>My first portfolio.  SOOoo glad this modal finally WORKS!!! YAY! I have 		learned so much so far and although I take classes at Emory University for Web 		Development this has taught me wonders.  I am so glad this portfolio is coming 		together.  Cant wait to finish the design!</p>
+        
+	<img src="http://www.fillmurray.com/555/300" alt="Actor Bill Murray">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close
+	  </button>
+        </div>
+    </div>
+</div>
+<!-- end modal -->
+
+<!-- Modal -->
+  <div class="modal fade" id="2ndModal" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Portfolio Framework</h4>
+        </div>
+        
+	<div class="modal-body">
+          <p>Frames and things</p>
+        
+	<img src="http://www.fillmurray.com/555/300" alt="Actor Bill Murray">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close
+	  </button>
+        </div>
+    </div>
+</div>
+<!-- end modal -->
+
+<!-- Modal -->
+  <div class="modal fade" id="3rdModal" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Portfolio Bootstrap</h4>
+        </div>
+        
+	<div class="modal-body">
+          <p>Boots and Strings</p>
+        
+	<img src="http://www.fillmurray.com/555/300" alt="Actor Bill Murray">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close
+	  </button>
+        </div>
+    </div>
+</div>
+<!-- end modal -->
+
+<!-- Modal -->
+  <div class="modal fade" id="4thModal" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Fun Stuff</h4>
+        </div>
+        
+	<div class="modal-body">
+          <p>Swag</p>
+        
+	<img src="http://www.fillmurray.com/555/300" alt="Actor Bill Murray">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close
+	  </button>
+        </div>
+    </div>
+</div>
+<!-- end modal -->
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!"/>
+    </a>
+</p>
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!">
+    </a>
+</p>
+</body>
+
+        
+</html>
